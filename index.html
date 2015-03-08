@@ -8,7 +8,7 @@
 <body ng-app="railNationTools">
     <form ng-submit="OnSubmit()" ng-controller="MainCtrl">
         Towar:
-        <select ng-model="goods" ng-options="c.value as c.name for c in options"></select>
+        <select ng-model="goods" ng-options="c.value as c.name for c in options"></select> (bonus {{goods}} za sztukę)
         <div>
             Ilosc pociagow: <input type="number" ng-model="trains" />
         </div>
@@ -22,6 +22,10 @@
 
         <div>
             Zysk z dwudniowej licencji: {{profitFromLicense}}
+        </div>
+        <div>
+            <h3>Zawiłości licencyjne</h3>
+            Cena z licencji nie jest mnożona przez bonusy na konkursy miejskie. Najpierw cena w mieści jest mnożona x2 przykładowo, a dopiero do tego jest dodawany bonus z licencji.
         </div>
     </form>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
