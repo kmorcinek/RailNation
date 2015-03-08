@@ -20,6 +20,14 @@
             { value: 35, name: 'Pieczywo' },
             { value: 32, name: 'Ruda miedzi' },
             { value: 37, name: 'Kwarc' },
+            { value: 46, name: 'Miedź' },
+            { value: 48, name: 'Stal' },
+            { value: 44, name: 'Obuwie' },
+            { value: 48, name: 'Szkło' },
+            { value: 48, name: 'Przewody' },
+            { value: 58, name: 'Rury' },
+            { value: 48, name: 'Opakowania' },
+            { value: 59, name: 'Okna' },
         ];
 
         $scope.trains = 15;
