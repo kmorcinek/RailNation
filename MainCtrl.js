@@ -30,7 +30,7 @@
             { value: 59, name: 'Okna' },
         ];
 
-        $scope.trains = 15;
+        $scope.trains = 7;
         $scope.waggons = 13;
         $scope.timePerTrain = '6:54';
         $scope.goods = $scope.options[0].value;
