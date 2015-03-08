@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kalkulator licencji w RailNation</title>
+</head>
+<body ng-app="railNationTools">
+    <form ng-submit="OnSubmit()" ng-controller="MainCtrl">
+        Towar:
+        <select ng-model="goods" ng-options="c.value as c.name for c in options"></select>
+        <div>
+            Ilosc pociagow: <input type="number" ng-model="trains" />
+        </div>
+        <div>
+            Ilosc wagonow w pociagu: <input type="number" ng-model="waggons" />
+        </div>
+        <div>
+            Całkowity czas rozkladu jazdy: <input ng-model="timePerTrain" />
+        </div>
+        <button type="submit">Przelicz</button>
+
+        <div>
+            Zysk z dwudniowej licencji: {{profitFromLicense}}
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="MainCtrl.js"></script>
+</body>
+</html>
