@@ -28,6 +28,7 @@
             { value: 58, name: 'Rury' },
             { value: 48, name: 'Opakowania' },
             { value: 59, name: 'Okna' },
+            { value: 75, name: 'Chemikalia' },
         ];
 
         $scope.trains = 7;

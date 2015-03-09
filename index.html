@@ -7,6 +7,7 @@
 </head>
 <body ng-app="railNationTools">
     <form ng-submit="OnSubmit()" ng-controller="MainCtrl">
+        <h2>Kalkulator licencji w RailNation</h2>
         Towar:
         <select ng-model="goods" ng-options="c.value as c.name for c in options"></select> (bonus {{goods}} za sztukę)
         <div>
@@ -22,6 +23,10 @@
 
         <div>
             Zysk z dwudniowej licencji: {{profitFromLicense}}
+        </div>
+        <div>
+            <h3>Dokładność</h3>
+            Oprócz głównych pociagów (Morfy, Posejdony, itd) są też zawsze jakieś dodatki (jeden Ryś, Thor, itd) i bonusowe lokomotywy. Dla prostoty nie obliczamy ich tutaj. Można sobie dodać coś na oko. 
         </div>
         <div>
             <h3>Zawiłości licencyjne</h3>
