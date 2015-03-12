@@ -13,6 +13,7 @@
             { value: 31, name: 'Bydło' },
             { value: 34, name: 'Nici' },
             { value: 37, name: 'Skóra' },
+
             { value: 39, name: 'Tekstylia' },
             { value: 43, name: 'Mięso' },
             { value: 49, name: 'Narzędzia' },
@@ -21,6 +22,7 @@
             { value: 35, name: 'Mąka' },
             { value: 32, name: 'Ruda miedzi' },
             { value: 37, name: 'Kwarc' },
+
             { value: 46, name: 'Miedź' },
             { value: 48, name: 'Stal' },
             { value: 44, name: 'Obuwie' },
@@ -29,7 +31,30 @@
             { value: 58, name: 'Rury' },
             { value: 48, name: 'Opakowania' },
             { value: 59, name: 'Okna' },
+
+            { value: 51, name: 'Blacha' },
+            { value: 58, name: 'Krzem' },
+            { value: 75, name: 'Jedzenie' },
+            { value: 60, name: 'Ropa naftowa' },
+            { value: 63, name: 'Żarówki' },
             { value: 75, name: 'Chemikalia' },
+            { value: 73, name: 'Ubranie' },
+            { value: 79, name: 'Stal nierdzewna' },
+
+            { value: 62, name: 'Boksyt' },
+            { value: 94, name: 'Maszyny' },
+            { value: 80, name: 'Plastik' },
+            { value: 72, name: 'Aluminium' },
+            { value: 79, name: 'Ceramika' },
+            { value: 77, name: 'Profile hutnicze' },
+            { value: 90, name: 'Benzyna' },
+            { value: 115, name: 'Samochody' },
+
+            { value: 76, name: 'AGD' },
+            { value: 145, name: 'Elektronika' },
+            { value: 100, name: 'Zabawki' },
+            { value: 120, name: 'Towary sportowe' },
+            { value: 112, name: 'Ceramika sanitarna' },
         ];
 
         $scope.trains = 7;
